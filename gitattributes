@@ -1,2 +1,2 @@
-# directt java
-*.zip diff=java
+* text=auto
+*.* diff=java
