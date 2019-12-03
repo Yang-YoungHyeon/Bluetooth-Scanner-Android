@@ -14,8 +14,7 @@
 # Check Permission
 <div>
   
-  private void Check_Permission(){
-        BluetoothAdapter btAdapter = BluetoothAdapter.getDefaultAdapter();
+  BluetoothAdapter btAdapter = BluetoothAdapter.getDefaultAdapter();
         if(btAdapter == null){
             Toast.makeText(this, R.string.Bluetooth_Unsupported_Message, Toast.LENGTH_SHORT).show();
             finish();
@@ -37,11 +36,9 @@
                 ActivityCompat.requestPermissions(this, REQUIRED_PERMISSIONS,Location_Request_Code);
             }
         }
-    }
 </div>
 
 # Bluetooth.LeScanCallback
-
 <div>
   
   private BluetoothAdapter.LeScanCallback leScanCallback = new BluetoothAdapter.LeScanCallback() {
