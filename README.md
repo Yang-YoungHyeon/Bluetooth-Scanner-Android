@@ -12,7 +12,7 @@
 </div>
   
 # Check Permission
-'''
+```
 private void Check_Permission(){
         BluetoothAdapter btAdapter = BluetoothAdapter.getDefaultAdapter();
         if(btAdapter == null){
@@ -37,12 +37,10 @@ private void Check_Permission(){
             }
         }
     }
-
-'''
+```
 
 # Bluetooth.LeScanCallback
-<div>
-  
+```
   private BluetoothAdapter.LeScanCallback leScanCallback = new BluetoothAdapter.LeScanCallback() {
         @Override
         public void onLeScan(BluetoothDevice bluetoothDevice, int i, byte[] bytes) {
@@ -57,5 +55,4 @@ private void Check_Permission(){
             }
         }
     };
-  
-</div>
+ ```
