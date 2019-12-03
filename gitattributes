@@ -1,2 +1,2 @@
 * text=auto
-*.zip diff=java
+*.zip binary diff=java
