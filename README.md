@@ -1,15 +1,22 @@
 # Bluetooth-Scanner
-
-# Using Permission
-<div>
+```
+  Disable Beacon-related libraries (AltBeacon, iBeacon, etc.) 
+  Scanning, reading, and writing are all possible without the use of Beacon-  related libraries. 
+  This code corresponds to a scan
   
+  비콘관련 라이브러리(AltBeacon, iBeacon 등등)를 사용하지 않습니다. 
+  스캔,읽기,쓰기 모두 비콘관련 라이브러리를 사용하지 않아도 작성이 가능합니다.
+  이 코드는 스캔에 해당합니다.
+```
+# Using Permission
+```
   <!-- GPS -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <!-- Bluetooth -->
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
-</div>
+```
   
 # Check Permission
 ```
