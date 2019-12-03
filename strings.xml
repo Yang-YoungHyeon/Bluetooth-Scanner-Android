@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Bluetooth Scanner</string>
+    <string name="Bluetooth_Unsupported_Message">This device does not support Bluetooth</string>
+</resources>
